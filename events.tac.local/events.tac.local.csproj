@@ -98,8 +98,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\BreadcrumbBuilder.cs" />
+    <Compile Include="Business\NavigationBuilder.cs" />
+    <Compile Include="Controllers\BreadcrumbController.cs" />
     <Compile Include="Controllers\EventIntroController.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Models\EventIntro.cs" />
+    <Compile Include="Models\NavigationItem.cs" />
+    <Compile Include="Models\NavigationMenuItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -219,12 +225,20 @@
     <Content Include="Views\TAC\Events\HomeContent.cshtml" />
     <Content Include="Views\TAC\Events\FeatureRow.cshtml" />
     <Content Include="Views\TAC\Events\FeaturedEvent.cshtml" />
+    <Content Include="Views\Breadcrumb\Index.cshtml" />
+    <Content Include="Views\Navigation\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TAC.Sitecore.Abstractions\TAC.Sitecore.Abstractions.csproj">
+      <Project>{71417f51-8b93-4f15-a2bb-bb12fe286b24}</Project>
+      <Name>TAC.Sitecore.Abstractions</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

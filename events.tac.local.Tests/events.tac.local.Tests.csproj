@@ -75,6 +75,10 @@
       <Project>{70A8F6F7-2637-4D2C-AACE-A94490186552}</Project>
       <Name>events.tac.local</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TAC.Sitecore.Abstractions\TAC.Sitecore.Abstractions.csproj">
+      <Project>{71417f51-8b93-4f15-a2bb-bb12fe286b24}</Project>
+      <Name>TAC.Sitecore.Abstractions</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\xunit.analyzers.0.7.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
