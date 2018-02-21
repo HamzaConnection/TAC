@@ -1,0 +1,6 @@
+events.tac.local/bin/
+.vs/
+events.tac.local.Tests/bin/
+events.tac.local.Tests/obj/Debug/events.tac.local.Tests.dll
+events.tac.local.Tests/obj/
+events.tac.local/obj/
