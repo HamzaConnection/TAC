@@ -2,10 +2,10 @@
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
 @{
-
+    var url = Sitecore.Links.LinkManager.GetItemUrl(Model.Item);
 }
 
-<a href="Event-Detail.html">
+<a href="@url">
     @Html.Sitecore().Field("EventImage", new { @class = "img-responsive", mw = 500, mh = 333 })
 </a>
 <div class="caption">
@@ -13,6 +13,6 @@
     <p>
         @Html.Sitecore().Field("ContentIntro")
     </p>
-    <a href="Event-Detail.html" class="btn btn-default">Read more</a>
+    <a href="@url" class="btn btn-default">Read more</a>
 </div>
 
