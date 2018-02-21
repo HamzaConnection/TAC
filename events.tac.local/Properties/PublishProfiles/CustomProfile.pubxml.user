@@ -499,10 +499,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/21/2018 11:22:23</publishTime>
     </File>
     <File Include="Views/TAC/Events/FeaturedEvent.cshtml">
-      <publishTime>02/21/2018 13:45:41</publishTime>
+      <publishTime>02/21/2018 14:14:35</publishTime>
     </File>
     <File Include="Views/TAC/Events/FeatureRow.cshtml">
-      <publishTime>02/21/2018 13:45:45</publishTime>
+      <publishTime>02/21/2018 14:09:58</publishTime>
     </File>
     <File Include="Views/TAC/Events/HomeContent.cshtml">
       <publishTime>02/21/2018 13:43:39</publishTime>
