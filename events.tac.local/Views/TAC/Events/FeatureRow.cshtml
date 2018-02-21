@@ -1,0 +1,23 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<div class="row">
+    <div class="col-sm-4">
+        <div class="thumbnail">
+            @Html.Sitecore().Placeholder("feature-left")
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="thumbnail">
+            @Html.Sitecore().Placeholder("feature-middle")
+
+        </div>
+    </div>
+    <div class="col-sm-4">
+        @Html.Sitecore().Placeholder("feature-right")
+
+    </div>
+</div>
